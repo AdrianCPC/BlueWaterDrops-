@@ -35,7 +35,7 @@ body{
   background: #fff;
   width: 20px;
   height: 20px;
-  border-radius: 35% 65% 32% 68% / 50% 58% 42% 50% ;
+  border-radius: 35% 65% 32% 68% / 50% 58% 42% 50%;
 }
 .drop::after{
   content: '';
@@ -45,5 +45,17 @@ body{
   background: #fff;
   width: 10px;
   height: 10px;
-  border-radius: 36% 64% 21% 79% / 66% 40% 60% 34% ;
+  border-radius: 36% 64% 21% 79% / 66% 40% 60% 34%;
+}
+.drop:nth-child(2){
+  transform: scale 0.5 translate(-200px, 180px);
+  border-radius: 54% 46% 37% 63% / 49% 40% 60% 51%;
+}
+.drop:nth-child(3) {
+  transform: scale 0.5 translate(300px, 180px);
+  border-radius: 31% 69% 23% 77% / 49% 26% 74% 51%;
+}
+.drop:nth-child(4) {
+  transform: scale 0.3 translate(200px, -310px);
+  border-radius: 16% 84% 49% 51% / 61% 11% 89% 39%;
 }
