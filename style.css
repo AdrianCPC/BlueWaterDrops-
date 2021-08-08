@@ -37,3 +37,13 @@ body{
   height: 20px;
   border-radius: 35% 65% 32% 68% / 50% 58% 42% 50% ;
 }
+.drop::after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 36% 64% 21% 79% / 66% 40% 60% 34% ;
+}
