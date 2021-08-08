@@ -16,6 +16,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+/*--GOTA PRINCIPAL--*/
 .drop{
   position: absolute;
   width: 150px;
@@ -47,6 +48,7 @@ body{
   height: 10px;
   border-radius: 36% 64% 21% 79% / 66% 40% 60% 34%;
 }
+/*--OTRAS GOTAS--*/
 .drop:nth-child(2){
   transform: scale(0.5) translate(-210px, 180px);
   border-radius: 54% 46% 37% 63% / 49% 40% 60% 51%;
@@ -60,5 +62,5 @@ body{
   border-radius: 16% 84% 49% 51% / 61% 11% 89% 39%;
 }
 .drop:hover{
-  background: rgb(210, 229, 245);
+  background: rgb(0, 225, 255,0.05);
 }
